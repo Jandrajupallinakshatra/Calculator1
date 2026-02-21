@@ -6,7 +6,7 @@ steps{
 git branch:'main',url:'https://github.com/Jandrajupallinakshatra/Calculator1.git';
 }
 }
-stage('complile'){
+stage('compile'){
 steps{
 sh'javac Calculator.java'
 }
